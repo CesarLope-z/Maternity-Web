@@ -1,0 +1,52 @@
+#root {
+  --morado: #A45D83;
+  --rosado: #BB3E81;
+  --rosadoClaro: #FFCDE8;
+  --negro: #000000;
+  --blanco: #FFFFFF;
+  --noBlanco: #FFF8F1;
+  /* font-family: 'Caveat', cursive;
+  font-family: 'Dancing Script', cursive; */
+  font-family: 'Edu TAS Beginner', cursive;
+
+}
+body{
+  background-image: url(assets/backG.png);
+}
+.bg-morado{
+  background-color: var(--morado);
+}
+.bg-rosadoClaro{
+  background-color: var(--rosadoClaro);
+}
+.bg-rosado{
+  background-color: var(--rosado);
+}
+.colorM{
+  color: var(--morado);
+}
+.colorR{
+  color: var(--rosado);
+}
+.fuenteDancing{
+  font-family: 'Dancing Script', cursive;
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--morado);
+  border-radius: 50%;
+}
+.gridT{
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.borde1{
+  border-radius: 15px 50px 30px;
+}
+.borde2{
+  border-radius: 15px 50px; 
+}
+.borde3{
+  border-radius: 15px 50px 30px 25px;
+}
+.borde{
+  border-top: 2px solid var(--rosadoClaro);
+}
